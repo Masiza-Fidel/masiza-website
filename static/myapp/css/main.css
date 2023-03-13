@@ -324,7 +324,7 @@ body {
 .header--scroll .nav__brand,
 .header--scroll .nav__link,
 .header--scroll .nav__open {
-  color: var(--color-dark);
+  color: whitesmoke;
 }
 
 .header--scroll .nav__link--active {
@@ -755,7 +755,7 @@ body {
 
 .blog__title {
   margin-bottom: 2rem;
-  font-size: var(--fs-lg);
+  font-size: 25px;
   cursor: pointer;
   transition: var(--transition);
 }
