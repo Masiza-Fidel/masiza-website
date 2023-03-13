@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ww1+cdklmi81ja49doy^ya7i*6^7p*aezfg-n(28ku*b-(vkye
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -74,12 +74,12 @@ WSGI_APPLICATION = 'masiza.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+#DATABASES = {
+    #'default': {
+     #   'ENGINE': 'django.db.backends.sqlite3',
+     #   'NAME': BASE_DIR / 'db.sqlite3',
+   # }
+#}
 
 
 # Password validation
@@ -127,3 +127,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_URL= 'static/'
 STATIC_ROOT= BASE_DIR/'static'
+
